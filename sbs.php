@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Simple Booking System
- * Description: A simple booking system plugin
+ * Description: This is the Simple Booking System for WordPress.
  * Version:     1.0.0
  * Author:      bl4ckm00n
  * Text Domain: sbs
