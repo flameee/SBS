@@ -17,3 +17,4 @@ jobs:
           server: ftp.matteom.it
           username: 14056064@aruba.it
           password: ${{ secrets.MATTEOM_FTP_PWD }}
+          server-dir: www.matteom.it/wp-content/plugins/sbs/
