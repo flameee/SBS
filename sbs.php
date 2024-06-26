@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Simple Booking System
  * Description: A simple booking system plugin
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      bl4ckm00n
  * Text Domain: sbs
  */
