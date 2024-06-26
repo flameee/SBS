@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - master
+name: Deploy Plugin on matteom
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get latest code
+        uses: actions/checkout@v3
+
+      - name: Push files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.matteom.it
+          username: 14056064@aruba.it
+          password: ${{ secrets.MATTEOM_FTP_PWD }}
